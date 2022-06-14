@@ -852,7 +852,7 @@ export const home = () => {
 
 
     return (
-        <div className={styles.main}>
+        <div >
 
             <Head>
 
