@@ -1,5 +1,5 @@
 const votingContractFunction = web3  =>{
-    return new web3.eth.Contract(abi,"0xAa24e841107fb89510226BB3997aCb8040ca3648")
+    return new web3.eth.Contract(abi,"0xB02e81e406917Fa8D3f4FAEe06850A77bC1F508d")
 }
 
 
