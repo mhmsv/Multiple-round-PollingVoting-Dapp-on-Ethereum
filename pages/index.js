@@ -4,10 +4,10 @@ import Head from 'next/head'
 import Web3 from "web3"
 
 
-import votingContractFunction from 'blockchain/voting.js'
+//import votingContractFunction from 'blockchain/voting.js'
 import { useState, useEffect } from 'react'
 
-import styles from "styles/home.css"
+//import styles from "styles/home.css"
 export const home = () => {
 
     const [error, setError] = useState("");
@@ -183,6 +183,10 @@ export const home = () => {
         }
 
     }
+    const votingContractFunction = web3  =>{
+        return new web3.eth.Contract(abi,"0xAa24e841107fb89510226BB3997aCb8040ca3648")
+    }
+
 
     const getProposalHandler = async () => {
         try {
