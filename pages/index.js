@@ -2,13 +2,12 @@
 import 'bulma/css/bulma.css'
 import Head from 'next/head'
 import Web3 from "web3"
-import $ from "jquery";
 
 
-import votingContractFunction from 'blockchain/Voting.js'
+import votingContractFunction from 'blockchain/voting.js'
 import { useState, useEffect } from 'react'
 
-import styles from "styles/homeBallot.module.css"
+import styles from "styles/home.css"
 export const home = () => {
 
     const [error, setError] = useState("");
