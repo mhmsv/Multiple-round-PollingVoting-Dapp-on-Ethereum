@@ -866,7 +866,7 @@ export const home = () => {
 
                 <title>SBU Voting DAPP</title>
                 <meta name="description" content="decentralized voting appliation" />
-                <link rel="icon" href="/favicon.ico" />
+                        <link rel="icon" href="/favicon.ico" />
 
                 {/* <Script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></Script> */}
 
@@ -911,9 +911,11 @@ export const home = () => {
                         <div class="message-header">
                             <h1>Ballot Name: {ballotName} </h1>
                         </div>
+                        <div className='navbar-end'>
+                        <h2>Current User: {user}</h2>
+                    </div>
                         <div class="message-body">
                             <h2 id='majority'></h2>
-                            <h2 className='navbar-end'>Current User: {user}</h2>
                             <h2>Current State: {state} </h2>
                         </div>
                     </article>
