@@ -95,7 +95,7 @@ export const home = () => {
         document.getElementById("tablehead").innerHTML = ""
         document.getElementById("winnerHead").innerHTML = ""
         document.getElementById("reportHead").innerHTML = ""
-        document.getElementById("voterReport").innerHTML = ""
+        //document.getElementById("voterReport").innerHTML = ""
 
     }
 
@@ -1141,17 +1141,17 @@ export const home = () => {
                 </table>
             </section>
 
-            <section className='columns is-centered is-primary'>
+{stateProgress==8 &&             <section className='columns is-centered is-primary'>
 
-                <article className="message is-primary">
-                    <div className="message-header">
-                        <p>Report</p>
-                    </div>
-                    <div id='voterReport' className="message-body">
-                    </div>
-                </article>
-                <div ></div>
-            </section>
+<article className="message is-primary">
+    <div className="message-header">
+        <p>Winner Report</p>
+    </div>
+    <div id='voterReport' className="message-body">
+    </div>
+</article>
+<div ></div>
+</section>}
 
 
 
