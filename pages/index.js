@@ -3,7 +3,7 @@ import 'bulma/css/bulma.css'
 import Head from 'next/head'
 import Web3 from "web3"
 
-
+import styles from "styles/home.css"
 //import votingContractFunction from 'blockchain/voting.js'
 import { useState, useEffect } from 'react'
 
