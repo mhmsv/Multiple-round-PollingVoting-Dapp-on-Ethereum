@@ -865,7 +865,7 @@ import { useState, useEffect } from 'react'
                 <Head>
     
                     <title>SBU Voting DAPP</title>
-                    <meta name="description" content="a blockchain voting app" />
+                    <meta name="description" content="decentralized voting appliation" />
                     {/* <Script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></Script> */}
     
     
