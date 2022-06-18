@@ -910,13 +910,14 @@ export const home = () => {
                     <article class="message is-primary">
                         <div class="message-header">
                             <h1>Ballot Name: {ballotName} </h1>
-                        </div>
-                        <div className='navbar-end'>
+                            <div className='navbar-end'>
                         <h2>Current User: {user}</h2>
                     </div>
+                        </div>
+
                         <div class="message-body">
+                        <h2>Current State: {state} </h2>
                             <h2 id='majority'></h2>
-                            <h2>Current State: {state} </h2>
                         </div>
                     </article>
 
