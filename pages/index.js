@@ -95,6 +95,7 @@ export const home = () => {
         document.getElementById("tablehead").innerHTML = ""
         document.getElementById("winnerHead").innerHTML = ""
         document.getElementById("reportHead").innerHTML = ""
+        document.getElementById("connectWalletButton").innerHTML="Connect wallet"
         //document.getElementById("voterReport").innerHTML = ""
 
     }
@@ -167,6 +168,7 @@ export const home = () => {
                 if (votingContract) getStateHandler()
                 if (votingContract && address) getuserHandler()
                 setError("");
+                document.getElementById("connectWalletButton").innerHTML="Wallet is connected"
                 setSuccessMsg(address + " wallet connected successfully! ")
                 //document.getElementById("connectWalletButton").innerText="Wallet is Connected!"
 
@@ -174,6 +176,8 @@ export const home = () => {
 
 
             } catch (err) {
+                document.getElementById("connectWalletButton").innerHTML="Connect wallet"
+
                 setSuccessMsg("")
                 //document.getElementById("connectWalletButton").innerText="Connect wallet"
                 setError("Wallet is not connected! / pleade install a web 3 wallet like Metamask" + err.message)
