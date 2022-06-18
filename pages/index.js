@@ -95,7 +95,6 @@ export const home = () => {
         document.getElementById("tablehead").innerHTML = ""
         document.getElementById("winnerHead").innerHTML = ""
         document.getElementById("reportHead").innerHTML = ""
-        document.getElementById("connectWalletButton").innerHTML="Connect wallet"
         //document.getElementById("voterReport").innerHTML = ""
 
     }
