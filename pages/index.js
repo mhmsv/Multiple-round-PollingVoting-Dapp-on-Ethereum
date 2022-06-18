@@ -915,7 +915,7 @@ export const home = () => {
 
                         <div class="message-body">
                         <h2>Current State: {state} </h2>
-                            <h3 id='majority'></h2>
+                            <h3 id='majority'></h3>
                         </div>
                     </article>
 
