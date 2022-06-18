@@ -913,7 +913,7 @@ export const home = () => {
                         </div>
                         <div class="message-body">
                             <h2 id='majority'></h2>
-                            <h2>Current User: {user}</h2>
+                            <h2 className='navbar-end'>Current User: {user}</h2>
                             <h2>Current State: {state} </h2>
                         </div>
                     </article>
