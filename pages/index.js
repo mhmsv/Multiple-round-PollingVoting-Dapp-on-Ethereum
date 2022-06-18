@@ -1063,7 +1063,7 @@ import { useState, useEffect } from 'react'
                             <button onClick={getProposalHandler} className="button is-primary is-light">Get Proposals</button>
                         </div>
                         <div className="column ml-3">
-                            <button onClick={getProposalFeedbackHandler} className="button is-primary is-light">Feedback<input onChange={UpdateReedingFeedbackIdTextField} placeholder='ID' className='is-small input ml-3' type="text"></input>
+                            <button onClick={getProposalFeedbackHandler} className="button is-primary is-light">Read Feedbacks<input onChange={UpdateReedingFeedbackIdTextField} placeholder='ID' className='is-small input ml-3' type="text"></input>
                             </button>
     
     
@@ -1079,7 +1079,7 @@ import { useState, useEffect } from 'react'
                             <button onClick={getVotersReport} className="button is-primary is-light">Voters Report
                             </button>                         </div>
                         <div className="column ml-3">
-                            <button onClick={getVotingReport} className="button is-primary is-light">Voting Report
+                            <button onClick={getVotingReport} className="button is-primary is-light">Ballot Report
                             </button>
                         </div>
                         <div className="column ml-3">                        <button onClick={getWinnerReport} className="button is-primary is-light">Winner Report</button>
